@@ -30,13 +30,13 @@ main() {
 			printf("[new line] : ");
 		}
 		else if (x == '\t') {
-			printf("[tab] : ");
+			printf("     [tab] : ");
 		}
 		else if (x == ' ') {
-			printf("[space] : ");
+			printf("   [space] : ");
 		}
 		else {
-			printf("%c : ", chars[i]);
+			printf("         %c : ", chars[i]);
 		}
 		for (j = 0; j < charNums[i]; j++) {
 			printf("-");
