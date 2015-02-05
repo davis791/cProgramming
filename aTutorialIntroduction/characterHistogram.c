@@ -8,7 +8,7 @@ main() {
 	int charNums[100];
 
 	i = j = charsLength = match = count = 0;
-	while ((c = getchar()) != EOF && count < 25) {
+	while ((c = getchar()) != EOF) {
 		for (i = 0; i < charsLength; i++) {
 			if (c == chars[i]) {
 				charNums[i]++;
@@ -21,7 +21,6 @@ main() {
 			chars[charsLength - 1] = c;
 			charNums[charsLength - 1] = 1;
 		}
-		count++;
 		match = 0;
 	}
 	for (i = 0; i < charsLength; i++) {

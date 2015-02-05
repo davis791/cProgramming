@@ -7,7 +7,7 @@ main() {
 	int i;
 	for (i = 0; i < 10; i++) {
 		printf("%d %d %d\n", i, power(2, i), power(-3, i));
-	}
+	} //Hey this is a dumb example comment.
 	return 0;
 }
 
